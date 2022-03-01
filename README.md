@@ -15,15 +15,3 @@
 ```
 
 - Rode o projeto digitando `yarn dev` no terminal
-
----
-
-Arquivo .env:
-
-```
-DISCORD_CLIENT_ID=
-DISCORD_CLIENT_SECRET=
-AUTH_SECRET=''
-JWT_SECRET=''
-NEXTAUTH_URL='http://localhost:3000'
-```
