@@ -1,0 +1,14 @@
+.container {
+  background-color: #00334a;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+}

@@ -1,7 +1,6 @@
 import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
-  return <h1>Olá Mundo!</h1>;
+  return <button>Olá Mundo!</button>;
 };
-
 export default Home;
