@@ -3,7 +3,8 @@
   "extends": [
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
-    "prettier"
+    "prettier",
+    "airbnb-base"
   ],
   "rules": {
     "prefer-const": "error",

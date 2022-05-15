@@ -1,14 +1,12 @@
 import type { NextPage } from 'next';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
-// import axios from 'axios';
-// import { useEffect } from 'react';
-// import { useRouter } from 'next/router';
 import styles from 'styles/auth/autenticar.module.css';
 import { api } from 'services/api';
 
 const Autenticar: NextPage = () => {
   const router = useRouter();
+
   useEffect(() => {
     if (!router.isReady) return;
     const code = router.query.code;
