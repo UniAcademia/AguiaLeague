@@ -7,7 +7,7 @@ interface MenuItemProps {
   items?: MenuItemProps[];
 }
 
-export function Menu() {
+export function MenuTeste() {
   const menuItems: MenuItemProps[] = [
     {
       text: 'Home',
