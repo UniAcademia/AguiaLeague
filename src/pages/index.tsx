@@ -1,6 +1,10 @@
+import { Menu } from 'components/Menu';
 import type { NextPage } from 'next';
-
 const Home: NextPage = () => {
-  return <button>Olá Mundo!</button>;
+  return (
+    <div>
+      <Menu />
+    </div>
+  );
 };
 export default Home;
