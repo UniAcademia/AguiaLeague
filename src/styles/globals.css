@@ -97,3 +97,9 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: darkolivegreen;
 }
+
+:root {
+  --white: #FAFAFA;
+  --blue: #00AFFF;
+  --dark-blue: #00334A;
+}
