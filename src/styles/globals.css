@@ -95,6 +95,7 @@ select {
 body {
   background: var(--dark-blue);
   color: var(--white);
+  font-family: 'Inter', sans-serif;
 }
 
 :root {

@@ -5,8 +5,8 @@ import { Menu } from 'components/Menu';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-    <Menu/>
-    <Component {...pageProps} />;
+      <Menu/>
+      <Component {...pageProps} />;
     </>
   )
 }
