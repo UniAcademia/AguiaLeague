@@ -120,31 +120,6 @@
     flex-direction: column;
   }
 
-  .botao1 {
-    background: #dfdfdf;
-    border: 3px solid #fafafa;
-    color: #00334a;
-    border-radius: 7px;
-    padding: 1em;
-    margin: 0.5em;
-    font-size: 1.5em;
-    font-weight: bolder;
-    width: 20%;
-    margin-left: 40px;
-  }
-
-  .botao2 {
-    background: #00afff;
-    border-radius: 7px;
-    border: none;
-    color: #fafafa;
-    padding: 1em;
-    margin: 0.5em;
-    font-size: 1.5em;
-    font-weight: bolder;
-    width: 20%;
-    margin-left: 40px;
-  }
   .account {
     margin-left: 100px;
     font-size: 20px;

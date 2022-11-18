@@ -1,6 +1,7 @@
-import styles from '../styles/Home.module.css'
 import Image from 'next/image';
+import styles from '../styles/Home.module.css'
 import { NextPage } from 'next';
+import { Button } from '../components/Button';
 
 const Home: NextPage = () => {
   return (
@@ -18,8 +19,8 @@ const Home: NextPage = () => {
           <strong>VALORANT</strong> e ganhe prêmios
         </p>
         <div className={styles.cont}>
-          <button className={styles.botao1}>Saiba Mais </button>
-          <button className={styles.botao2}>INSCREVA-SE</button>
+          <Button>Saiba Mais </Button>
+          <Button>INSCREVA-SE</Button>
         </div>
 
         <p className={styles.account}>
