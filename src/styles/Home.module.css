@@ -151,25 +151,25 @@
   }
 
   .parte4 {
-    background-image: url('../../public/parte4imgbg.svg');
+    background-image: url('../public/parte4imgbg.svg');
     background-position: right;
     background-repeat: no-repeat;
   }
 
   .parte1 {
-    background-image: url('../../public/parte1imgbg.svg');
+    background-image: url('../public/parte1imgbg.svg');
     background-position: right;
     background-repeat: no-repeat;
   }
 
   .parte2 {
-    background-image: url('../../public/parte2imgbg.svg');
+    background-image: url('../public/parte2imgbg.svg');
     background-position: right;
     background-repeat: no-repeat;
   }
 
   .parte3 {
-    background-image: url('../../public/parte3imgbg.svg');
+    background-image: url('../public/parte3imgbg.svg');
     background-position: right;
     background-repeat: no-repeat;
   }
