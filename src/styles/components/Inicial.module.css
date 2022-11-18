@@ -1,0 +1,259 @@
+@media (max-width: 375px) {
+  .base {
+    font-family: 'Montserrat';
+    background-color: #00334a;
+    color: white;
+    margin: 0;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+  }
+
+  .base p {
+    width: 95vw;
+    margin: auto;
+  }
+
+  .botao1 {
+    background: #dfdfdf;
+    border: 3px solid #fafafa;
+    color: #00334a;
+    border-radius: 7px;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 1.5em;
+    font-weight: bolder;
+  }
+
+  .botao2 {
+    background: #00afff;
+    border-radius: 7px;
+    border: none;
+    color: #fafafa;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 1.5em;
+    font-weight: bolder;
+  }
+
+  .parte1 .titulo {
+    padding: 1em 0;
+  }
+
+  .cont {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titulo {
+    font-size: 2em;
+    margin: 0;
+    padding: 3em 0 0 0;
+  }
+
+  .subtitulo {
+    margin: 0;
+    padding: 2em 0;
+  }
+
+  .account {
+    text-align: center;
+  }
+
+  .parte2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .parte2 img {
+    width: 30%;
+    margin: auto;
+    padding-top: 1em;
+    margin-bottom: 1em;
+  }
+  .parte2 hr {
+    width: 100%;
+  }
+
+  .parte2 .subtitulo {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .parte2 .titulo {
+    margin-bottom: 1em;
+  }
+  .parte6 {
+    display: none;
+  }
+  .torneio{
+    display: none;
+  }
+}
+
+@media (min-width: 376px) {
+  .base {
+    font-family: 'Montserrat';
+    background-color: #00334a;
+    color: white;
+    max-width: 1440px;
+    margin: auto;
+  }
+  .titulo {
+    padding-top: 100px;
+    font-size: 65px;
+    margin-left: 40px;
+  }
+  .subtitulo {
+    margin: 100px;
+    margin-left: 40px;
+    font-size: 30px;
+    max-width: 700px;
+  }
+
+  .cont {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .botao1 {
+    background: #dfdfdf;
+    border: 3px solid #fafafa;
+    color: #00334a;
+    border-radius: 7px;
+    padding: 1em;
+    margin: 0.5em;
+    font-size: 1.5em;
+    font-weight: bolder;
+    width: 20%;
+    margin-left: 40px;
+  }
+
+  .botao2 {
+    background: #00afff;
+    border-radius: 7px;
+    border: none;
+    color: #fafafa;
+    padding: 1em;
+    margin: 0.5em;
+    font-size: 1.5em;
+    font-weight: bolder;
+    width: 20%;
+    margin-left: 40px;
+  }
+  .account {
+    margin-left: 100px;
+    font-size: 20px;
+  }
+
+  .parte4 {
+    background-image: url('../../public/parte4imgbg.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  .parte1 {
+    background-image: url('../../public/parte1imgbg.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  .parte2 {
+    background-image: url('../../public/parte2imgbg.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  .parte3 {
+    background-image: url('../../public/parte3imgbg.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  .parte4 .subtitulo {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .parte4 .titulo {
+    margin-bottom: 100px;
+  }
+
+  .parte4 div {
+    display: none;
+  }
+  .parte4 hr {
+    margin-top: 250px;
+  }
+  .parte5 hr {
+    margin-top: 600px;
+  }
+  .parte5 div {
+    display: none;
+  }
+
+  .hr {
+    margin: 50px 0;
+  }
+
+  .parte2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 150px 150px 150px 100px;
+    row-gap: 50px  ;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "img1 text1 text1"
+    "img2 text2 text2"
+    "img3 text3 text3"
+    ;
+  }
+
+  .parte2 p:nth-child(1){
+    grid-area: titulo;
+  }
+
+  .img1{
+    grid-area: img1;
+    padding: 100px;
+  }
+  .img2{
+    grid-area: img2;
+  }
+  .img3{
+    grid-area: img3;
+  }
+
+  .parte2 .subtitulo{
+    margin: auto 0;
+  }
+
+  .parte2 p:nth-child(3){
+    grid-area: text1;
+  }
+
+  .parte2 p:nth-child(5){
+    grid-area: text2;
+  }
+  .parte2 p:nth-child(7){
+    grid-area: text3;
+  }
+  .parte3{
+    position: relative;
+  }
+  .parte3 p:nth-child(4){
+    position: absolute;
+    /* color: red; */
+    right: 0px;
+    top: 300px;
+    width: 25%;
+  }
+
+  .parte3 div{
+    margin: 100px;
+  }
+  
+}
